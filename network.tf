@@ -144,4 +144,12 @@ resource "aws_security_group" "khm_security_group" {
     cidr_blocks = ["0.0.0.0/0"]
     description = "Allow all egress"
   }
+
+  ingress {
+    from_port   = 8 # ping
+    to_port     = 8
+    protocol    = 1 # ICMP
+    cidr_blocks = ["0.0.0.0/0"]
+    description = "Allow ICMP ingress"
+  }
 }
