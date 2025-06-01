@@ -147,7 +147,7 @@ resource "aws_security_group" "khm_security_group" {
 
   ingress {
     from_port   = 8 # ping
-    to_port     = 8
+    to_port     = 0
     protocol    = 1 # ICMP
     cidr_blocks = ["0.0.0.0/0"]
     description = "Allow ICMP ingress"
