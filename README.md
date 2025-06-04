@@ -13,7 +13,7 @@
 ## Links 🔗
 
 - [Docker Hub](https://hub.docker.com/repository/docker/kkadusic2/real-estate-sales/general)
-- [GitLab](https://github.com/kanitakadusic/real-estate-sales/tree/aws)
+- [Continuous Deployment](https://github.com/kanitakadusic/real-estate-sales/tree/aws)
 
 ## Getting Started 🚀
 
